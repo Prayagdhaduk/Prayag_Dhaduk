@@ -22,7 +22,7 @@ function Header() {
  <div className="social-links">
    <a href="https://twitter.com/PrayagDhaduk" className="twitter"><i className="fab fa-twitter" /></a>
    <a href="https://www.facebook.com/prayag.dhaduk.9" className="facebook"><i className="fab fa-facebook-f" /></a>
-   <a href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram" /></a>
+   <a href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram-square" /></a>
    <a href="https://in.linkedin.com/in/prayag-dhaduk-222184190" className="skype"><i className="fab fa-linkedin-in"/></a>
  </div>
 </header>

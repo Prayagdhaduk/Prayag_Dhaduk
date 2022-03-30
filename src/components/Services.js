@@ -9,7 +9,7 @@ export default function Services() {
       <div className="section-title">
         <span>My Services</span>
         <h2>My Services</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>So I Was Not Born With A Whole Lot Of Natural Talent... But I Work Hard And I Never Give Up. That Is My Gift. That Is MY Ninja Way!</p>
       </div>
       <div className="row">
         <div className="col-md-6 col-xl-3 d-flex align-items-stretch  mb-lg-0">
@@ -53,16 +53,14 @@ export default function Services() {
           <div className="position-relative testimonials">
             <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay={100}>
               <div className="swiper-wrapper">
-                <div className="swiper-slide">
+              <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h3>Hashirama Senju</h3>
+                    <h4>First Hokage</h4>
                     <p>
                       <i className="fas fa-quote-left" />
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                      Accusantium
-                      quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                      Whenever you live, there will always be war.
                       <i className="fas fa-quote-right" />
                     </p>
                   </div>
@@ -70,12 +68,11 @@ export default function Services() {
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
+                    <h3>Naruto Uzumaki</h3>
+                    <h4>Seventh Hokage</h4>
                     <p>
                       <i className="fas fa-quote-left" />
-                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                      quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                      Those Who Break The Rules Are Scum... But, Those Who Abandon Their Friends Are Worse Than Scum.
                       <i className="fas fa-quote-right" />
                     </p>
                   </div>
@@ -83,39 +80,11 @@ export default function Services() {
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <h3>Sasuke Uchiha</h3>
+                    <h4>Shadow Hokage</h4>
                     <p>
                       <i className="fas fa-quote-left" />
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                      tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i className="fas fa-quote-right" />
-                    </p>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                    <p>
-                      <i className="fas fa-quote-left" />
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                      minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                      <i className="fas fa-quote-right" />
-                    </p>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
-                    <p>
-                      <i className="fas fa-quote-left" />
-                      Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                      culpa
-                      labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                      No man chooses evil because he is evil, he only mistakes it for happiness, the good he seeks.
                       <i className="fas fa-quote-right" />
                     </p>
                   </div>

@@ -525,6 +525,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .hero-img {
@@ -982,7 +983,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 20px 0;
+  padding: 40px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1018,7 +1019,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgb(255 255 255 / 36%);
+  border: 6px solid #dc354570;
   margin: 0 auto;
 }
 

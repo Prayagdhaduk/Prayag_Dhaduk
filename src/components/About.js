@@ -3,13 +3,13 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 
 export default function About() {
   return (
-
-    <section id="about" className="about">
+    <main id="main">
+      <section id="about" className="about">
         <div className="container wow fadeInLeftBig animated" data-wow-duration="1.5s">
           <div className="section-title">
             <span>About Me</span>
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Those Who Do Not Understand True Pain Can Never Understand True Peace</p>
           </div>
           <div className="row">
             <div className="col-xl-4 col-md-3 d-flex align-items-stretch justify-content-center justify-content-lg-start">
@@ -144,6 +144,7 @@ export default function About() {
           </div>
         </div>
       </section>
+    </main>
      
   )
 }

@@ -2,12 +2,13 @@ import React from 'react'
 
 export default function Blog() {
   return (
+  <main id="main">
     <section id="blog" className="blog">
     <div className="container">
       <div className="section-title wow fadeInDown animated" data-wow-duration="2s">
         <span>Blog</span>
         <h2>Blog</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Rejection is a part of any man’s life. If you can’t accept and move past rejection, or at least use it as writing material – you’re not a real man.</p>
       </div>
       <div className="row justify-content-center">
         <div className="col-xl-4 col-sm-6">
@@ -33,7 +34,7 @@ export default function Blog() {
         <div className="col-xl-4 col-sm-6">
           <div className="blog-post">
             <div className="blog-thumb">
-              <a href="/"><img src="assets/img/blog/02.jpg" alt="" /></a>
+              <a href="/"><img src="assets/img/blog/03.jpg" alt="" /></a>
             </div>
             <div className="down-content">
               <span>Quots</span>
@@ -53,7 +54,7 @@ export default function Blog() {
         <div className="col-xl-4 col-sm-6">
           <div className="blog-post">
             <div className="blog-thumb">
-              <a href="/"><img src="assets/img/blog/03.jpg" alt="" /></a>
+              <a href="/"><img src="assets/img/blog/02.jpg" alt="" /></a>
             </div>
             <div className="down-content">
               <span>Quots</span>
@@ -82,6 +83,7 @@ export default function Blog() {
         </div>
       </div>
     </div>
-  </section>
+    </section>
+  </main>
   )
 }

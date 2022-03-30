@@ -4,18 +4,19 @@ import React from 'react'
 export default function Services() {
 
   return (
+  <main id="main">
     <section id="services" className="services">
     <div className="container wow rollIn animated" data-wow-duration="1.5s">
       <div className="section-title">
         <span>My Services</span>
         <h2>My Services</h2>
-        <p>So I Was Not Born With A Whole Lot Of Natural Talent... But I Work Hard And I Never Give Up. That Is My Gift. That Is MY Ninja Way!</p>
+        <p>I was not born with a whole lot of natural talent... but I work hard and I never give up. that is my gift. that ss my ninja way!</p>
       </div>
       <div className="row">
         <div className="col-md-6 col-xl-3 d-flex align-items-stretch  mb-lg-0">
           <div className="icon-box">
             <div className="icon"><i className="fas fa-palette" /></div>
-            <h4 className="title"><a href>Web Design</a></h4>
+            <h4 className="title"><a href='/'>Web Design</a></h4>
             <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem, enim
               necessitatibus quae ab placeat consectetur velit qui, sint aliquam sunt.</p>
           </div>
@@ -23,7 +24,7 @@ export default function Services() {
         <div className="col-md-6 col-xl-3 d-flex align-items-stretch  mb-lg-0">
           <div className="icon-box">
             <div className="icon"><i className="fas fa-radiation" /></div>
-            <h4 className="title"><a href>Animation</a></h4>
+            <h4 className="title"><a href='/'>Animation</a></h4>
             <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem, enim
               necessitatibus quae ab placeat consectetur velit qui, sint aliquam sunt.</p>
           </div>
@@ -31,7 +32,7 @@ export default function Services() {
         <div className="col-md-6 col-xl-3 d-flex align-items-stretch  mb-lg-0">
           <div className="icon-box">
             <div className="icon"><i className="fas fa-code" /></div>
-            <h4 className="title"><a href>Web Development</a></h4>
+            <h4 className="title"><a href='/'>Web Development</a></h4>
             <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem, enim
               necessitatibus quae ab placeat consectetur velit qui, sint aliquam sunt.</p>
           </div>
@@ -39,7 +40,7 @@ export default function Services() {
         <div className="col-md-6 col-xl-3 d-flex align-items-stretch  mb-lg-0">
           <div className="icon-box">
             <div className="icon"><i className="fas fa-arrows-alt" /></div>
-            <h4 className="title"><a href>Fully Responsive</a></h4>
+            <h4 className="title"><a href='/'>Fully Responsive</a></h4>
             <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem, enim
               necessitatibus quae ab placeat consectetur velit qui, sint aliquam sunt.</p>
           </div>
@@ -95,6 +96,7 @@ export default function Services() {
           </div>
         </div>
     </div>
-  </section>
+    </section>
+  </main>
   )
 }

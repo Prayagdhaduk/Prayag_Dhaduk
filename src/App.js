@@ -10,14 +10,12 @@ function App() {
   return (
 <>  
 <Header/>
-<main id="main">
 <Home/>
 <About/>
 <Services/>
 <Portfolio/>
 <Blog/>
 <Contact/>
-</main>
 </>
 
   );

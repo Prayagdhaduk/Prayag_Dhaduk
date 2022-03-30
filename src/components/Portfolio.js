@@ -2,12 +2,13 @@ import React from 'react'
 
 export default function Portfolio() {
   return (
+    <main id="main">
       <section id="portfolio" className="portfolio">
         <div className="container wow fadeInUp" data-wow-duration="1.5s">
           <div className="section-title">
             <span>My Portfolio</span>
             <h2>My Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>I’m not gonna run away, I never go back on my word! That’s my nindo: my ninja way.</p>
           </div>
           <ul id="portfolio-flters" className="d-flex justify-content-center">
             <li data-filter="*" className="filter-active">Me</li>
@@ -100,5 +101,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+    </main>
   )
 }

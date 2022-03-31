@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Blog() {
+const Blog = () => {
   return (
-  <main id="main">
+    <main id="main">
     <section id="blog" className="blog">
     <div className="container">
       <div className="section-title wow fadeInDown animated" data-wow-duration="2s">
@@ -87,3 +87,5 @@ export default function Blog() {
   </main>
   )
 }
+
+export default Blog

@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Contact() {
+const Contact = () => {
   return (
-  <main id="main">
+    <main id="main">
     <section id="contact" className="contact">
     <div className="container wow fadeInLeftBig animated" data-wow-duration="1.5s">
       <div className="section-title">
@@ -91,3 +91,5 @@ export default function Contact() {
   </main>
   )
 }
+
+export default Contact

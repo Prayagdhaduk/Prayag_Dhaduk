@@ -3,9 +3,9 @@ import React from 'react'
 const Blog = () => {
   return (
     <main id="main">
-    <section id="blog" className="blog">
+    <section id="blog" className="blog wow fadeInDown animated" data-wow-duration="2s">
     <div className="container">
-      <div className="section-title wow fadeInDown animated" data-wow-duration="2s">
+      <div className="section-title">
         <span>Blog</span>
         <h2>Blog</h2>
         <p>Rejection is a part of any man’s life. If you can’t accept and move past rejection, or at least use it as writing material – you’re not a real man.</p>

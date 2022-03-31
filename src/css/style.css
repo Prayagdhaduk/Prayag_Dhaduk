@@ -253,6 +253,14 @@ img {
   height: 100%;
 }
 
+#header.header-transparent {
+  background: #282c34;
+}
+
+#header.header-scrolled {
+  background: #282c34;
+}
+
 #header .social-links {
   position: absolute;
   bottom: 0;
@@ -1104,7 +1112,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .portfolio .portfolio-item .portfolio-img {
@@ -1375,9 +1383,9 @@ section {
 .contact .info-box {
   text-align: center;
   box-shadow: 0 0 25px rgb(0 0 0 / 85%);
-  padding: 25px 0 25px 0;
+  padding: 30px 0 20px 0;
   border-radius: 10px;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -1402,7 +1410,6 @@ section {
   color: #fff;
   font-size: 16px;
   margin-bottom: 0;
-  overflow-wrap: anywhere;
 }
 
 .contact .social-links {
@@ -1433,10 +1440,9 @@ section {
 
 .email-form {
   box-shadow: 0 0 25px rgb(0 0 0 / 85%);
-  padding: 15px 20px;
+  padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
-  margin-top: 0;
 }
 
 
@@ -1509,8 +1515,6 @@ section {
 .map {
   border-radius: 20px;
   overflow: hidden;
-  display: flex;
-  box-shadow: 0 0 25px rgb(0 0 0 / 70%);
 }
 
 .map iframe {

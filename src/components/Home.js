@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const el = useRef(null);
@@ -39,7 +40,7 @@ const Home = () => {
             <div className="hero-box">
               <h1>P<span>R</span>A<span>Y</span>A<span>G</span> D<span>H</span>A<span>D</span>U<span>K</span></h1>
               <h2>I am <span ref={el}/></h2>
-              <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className="fas fa-angle-down" /></a>
+              <Link to="/about" className="btn-scroll scrollto" title="Scroll Down"><i className="fas fa-angle-down" /></Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 const Portfolio = () => {
+  
   return (
     <main id="main">
     <section id="portfolio" className="portfolio">
@@ -8,7 +10,7 @@ const Portfolio = () => {
         <div className="section-title">
           <span>My Portfolio</span>
           <h2>My Portfolio</h2>
-          <p>I’m not gonna run away, I never go back on my word! That’s my nindo: my ninja way.</p>
+          <p>I’m not gonna run away, I never go back on my word! That’s my ninja way.</p>
         </div>
         <ul id="portfolio-flters" className="d-flex justify-content-center">
           <li data-filter="*" className="filter-active">Me</li>

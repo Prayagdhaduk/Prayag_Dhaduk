@@ -1,21 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-  <header id="header" className="header-transparent">
+  <header id="header">
     <div className="profile">
       <img src="assets/img/me.jpg" alt="" className="img-fluid" />
       <h1>P<span>R</span>A<span>Y</span>A<span>G </span>D<span>H</span>A<span>D</span>U<span>K</span></h1>
     </div>
     <nav id="navbar" className="navbar">
       <ul>
-        <li><Link className="nav-link scrollto active" to="/"><i className="fas fa-house-user" />Home</Link></li>
-        <li><Link className="nav-link scrollto" to="/about"><i className="fas fa-user-alt" />About</Link></li>
-        <li><Link className="nav-link scrollto" to="/services"><i className="fas fa-poll" />Services</Link></li>
-        <li><Link className="nav-link scrollto" to="/portfolio"> <i className="fas fa-briefcase" />Portfolio</Link></li>
-        <li><Link className="nav-link scrollto" to="/blog"><i className="fas fa-file" />Blog</Link></li>
-        <li><Link className="nav-link scrollto" to="/contact"><i className="fas fa-envelope" />Contact</Link></li>
+        <li><NavLink className="nav-link" to="/"><i className="fas fa-house-user" />Home</NavLink></li>
+        <li><NavLink className="nav-link" to="/about"><i className="fas fa-user-alt" />About</NavLink></li>
+        <li><NavLink className="nav-link" to="/services"><i className="fas fa-poll" />Services</NavLink></li>
+        <li><NavLink className="nav-link" to="/portfolio"> <i className="fas fa-briefcase" />Portfolio</NavLink></li>
+        <li><NavLink className="nav-link" to="/blog"><i className="fas fa-file" />Blog</NavLink></li>
+        <li><NavLink className="nav-link" to="/contact"><i className="fas fa-envelope" />Contact</NavLink></li>
       </ul>
       <i className="fas fa-bars mobile-nav-toggle" />
     </nav>

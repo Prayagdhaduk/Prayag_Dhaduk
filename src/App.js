@@ -6,7 +6,6 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
-import Error from "./components/Error";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />}/>
           <Route path="/blog" element={<Blog />}/>
           <Route path="/contact" element={<Contact />}/>
-          <Route path="/*" element={<Error />}/>
         </Routes>
       </Router>
     </>

@@ -114,7 +114,7 @@
         margin-bottom: 0;
     }
     .contact .email-form{
-        margin-top: 0;
+        margin-top: 0 !important;
     }
     .background{
         height: 701px;
@@ -276,11 +276,11 @@
         font-size: 24px;
     }
     .contact .email-form{
-        margin-top: 0;
+        margin-top: 12px;
         padding: 20px;
     }
     .contact .info-box{
-        margin-top: 0;
+        margin-top: 12px;
         padding: 20px;
     }
     .portfolio-details .portfolio-info{

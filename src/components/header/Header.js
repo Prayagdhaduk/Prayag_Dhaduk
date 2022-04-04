@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import me from "../img/me.jpg";
 
 const Header = () => {
   return (
   <header id="header">
     <div className="profile">
-      <img src="assets/img/me.jpg" alt="" className="img-fluid" />
+      <img src={me} alt="" className="img-fluid" />
       <h1>P<span>R</span>A<span>Y</span>A<span>G </span>D<span>H</span>A<span>D</span>U<span>K</span></h1>
     </div>
     <nav id="navbar" className="navbar">

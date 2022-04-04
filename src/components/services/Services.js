@@ -1,4 +1,7 @@
 import React from 'react'
+import Testimonial1 from "../img/testimonials/testimonials-1.jpg";
+import Testimonial2 from "../img/testimonials/testimonials-2.jpg";
+import Testimonial3 from "../img/testimonials/testimonials-3.jpg";
 
 const Services = () => {
   return (
@@ -89,7 +92,7 @@ const Services = () => {
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/testimonials/testimonials-1.jpg"
+                      src={Testimonial1}
                       className="testimonial-img"
                       alt=""
                     />
@@ -105,7 +108,7 @@ const Services = () => {
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/testimonials/testimonials-2.jpg"
+                      src={Testimonial2}
                       className="testimonial-img"
                       alt=""
                     />
@@ -122,7 +125,7 @@ const Services = () => {
                 <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
-                      src="assets/img/testimonials/testimonials-3.jpg"
+                      src={Testimonial3}
                       className="testimonial-img"
                       alt=""
                     />

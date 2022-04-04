@@ -18,11 +18,11 @@ const Contact = () => {
                 <i className="fas fa-share-alt" />
                 <h3>Social Profiles</h3>
                 <div className="social-links">
-                  <a target="_blank"  rel="noreferrer" href="https://twitter.com/PrayagDhaduk" className="twitter"><i className="fab fa-twitter" /></a>
-                  <a target="_blank"  rel="noreferrer" href="https://www.facebook.com/prayag.dhaduk.9" className="facebook"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank"  rel="noreferrer" href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram-square" /></a>
-                  <a target="_blank"  rel="noreferrer" href="https://wa.me/message/X5AMUTSPFKM6B1" className="whatsapp"><i className="fab fa-whatsapp-square"/></a>
-                  <a target="_blank"  rel="noreferrer" href="https://in.linkedin.com/in/prayag-dhaduk-222184190" className="linkedin"><i className="fab fa-linkedin-in" /></a>
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/PrayagDhaduk" className="twitter"><i className="fab fa-twitter" /></a>
+                  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/prayag.dhaduk.9" className="facebook"><i className="fab fa-facebook-f" /></a>
+                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram-square" /></a>
+                  <a target="_blank" rel="noreferrer" href="https://wa.me/message/X5AMUTSPFKM6B1" className="whatsapp"><i className="fab fa-whatsapp-square"/></a>
+                  <a target="_blank" rel="noreferrer" href="https://in.linkedin.com/in/prayag-dhaduk-222184190" className="linkedin"><i className="fab fa-linkedin-in" /></a>
                 </div>
               </div>
             </div>
@@ -75,14 +75,14 @@ const Contact = () => {
       <h3>Prayag Dhaduk</h3>
       <p>In this fake world loyalty is most expensive thing not everyone whom you trust can afford it.</p>
       <div className="social-links">
-      <a href="https://twitter.com/PrayagDhaduk" className="twitter"><i className="fab fa-twitter" /></a>
-      <a href="https://www.facebook.com/prayag.dhaduk.9" className="facebook"><i className="fab fa-facebook-f" /></a>
-      <a href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram-square" /></a>
-      <a href="https://wa.me/message/X5AMUTSPFKM6B1" className="whatsapp"><i className="fab fa-whatsapp-square"/></a>
-      <a href="https://in.linkedin.com/in/prayag-dhaduk-222184190" className="linkedin"><i className="fab fa-linkedin-in" /></a>
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/PrayagDhaduk" className="twitter"><i className="fab fa-twitter" /></a>
+      <a target="_blank" rel="noreferrer" href="https://www.facebook.com/prayag.dhaduk.9" className="facebook"><i className="fab fa-facebook-f" /></a>
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/prayag_patel_007/" className="instagram"><i className="fab fa-instagram-square" /></a>
+      <a target="_blank" rel="noreferrer" href="https://wa.me/message/X5AMUTSPFKM6B1" className="whatsapp"><i className="fab fa-whatsapp-square"/></a>
+      <a target="_blank" rel="noreferrer" href="https://in.linkedin.com/in/prayag-dhaduk-222184190" className="linkedin"><i className="fab fa-linkedin-in" /></a>
       </div>
       <div className="copyright">
-      © Copyright&nbsp;<a href='https://github.com/Prayagdhaduk'>Prayag Dhaduk </a>&nbsp;<i className="fa fa-heart"/>&nbsp;All rigths reserved
+      © Copyright&nbsp;<a target="_blank" rel="noreferrer" href='https://github.com/Prayagdhaduk'>Prayag Dhaduk </a>&nbsp;<i className="fa fa-heart"/>&nbsp;All rigths reserved
       </div>
    
   </footer>

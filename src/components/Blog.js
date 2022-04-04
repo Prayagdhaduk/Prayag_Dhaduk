@@ -1,4 +1,7 @@
 import React from 'react'
+import Blog1 from '../img/blog/01.jpg';
+import Blog2 from '../img/blog/02.jpg';
+import Blog3 from '../img/blog/03.jpg';
 
 const Blog = () => {
   return (
@@ -14,7 +17,7 @@ const Blog = () => {
         <div className="col-xl-4 col-sm-6">
           <div className="blog-post">
             <div className="blog-thumb">
-              <a href="/"><img src="assets/img/blog/01.jpg" alt="" /></a>
+              <a href="/"><img src={Blog1} alt="" /></a>
             </div>
             <div className="down-content">
               <span>Quots</span>
@@ -34,7 +37,7 @@ const Blog = () => {
         <div className="col-xl-4 col-sm-6">
           <div className="blog-post">
             <div className="blog-thumb">
-              <a href="/"><img src="assets/img/blog/03.jpg" alt="" /></a>
+              <a href="/"><img src={Blog3} alt="" /></a>
             </div>
             <div className="down-content">
               <span>Quots</span>
@@ -54,7 +57,7 @@ const Blog = () => {
         <div className="col-xl-4 col-sm-6">
           <div className="blog-post">
             <div className="blog-thumb">
-              <a href="/"><img src="assets/img/blog/02.jpg" alt="" /></a>
+            <a href="/"><img src={Blog2} alt="" /></a>
             </div>
             <div className="down-content">
               <span>Quots</span>

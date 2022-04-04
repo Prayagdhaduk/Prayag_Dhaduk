@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
+import Heroimg from "../img/hero-bg.jpg";
 
 const Home = () => {
   const el = useRef(null);
@@ -30,11 +31,8 @@ const Home = () => {
         <div className="row">
           <div className="col-12 wow bounceInUp" data-wow-duration="3s">
             <div className="hero-img">
-              <img src="assets/img/hero-bg.jpg" alt=""/>
+              <img src={Heroimg} alt=""/>
             </div>
-            {/* <div className='spinner'>
-          <img src="assets/img/logo512.png" alt=""/>
-          </div> */}
           </div>
           <div className="col-12 wow bounceInDown" data-wow-duration="3s">
             <div className="hero-box">
